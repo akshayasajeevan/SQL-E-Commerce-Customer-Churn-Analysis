@@ -99,3 +99,13 @@ Records where:
 
 ```text
 WarehouseToHome > 100
+---
+## 👩‍💻 Author
+
+**Akshaya S**
+
+B.Sc. Computer Science Graduate
+
+---
+
+⭐ Thank you for visiting this project!
