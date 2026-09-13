@@ -97,5 +97,14 @@ Mode imputation was applied to:
 
 Records where:
 
-```text
 WarehouseToHome > 100
+
+---
+
+## 👩‍💻 Author
+
+**Akshaya S**
+
+---
+
+⭐ Thank you for visiting this project!
