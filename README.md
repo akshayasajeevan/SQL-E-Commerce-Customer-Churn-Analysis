@@ -99,16 +99,3 @@ Records where:
 
 ```text
 WarehouseToHome > 100
-
-
-were removed from the dataset to eliminate unrealistic distance values.
-
----
-
-## 👩‍💻 Author
-
-**Akshaya S**
-
----
-
-⭐ Thank you for visiting this project!
