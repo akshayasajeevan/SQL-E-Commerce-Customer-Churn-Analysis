@@ -2,49 +2,51 @@
 
 ### SQL Data Cleaning, Transformation & Business Analysis
 
-An end-to-end SQL data analysis project using **MySQL** to analyze e-commerce customer churn, customer behavior, satisfaction, purchasing patterns, payment preferences, complaints, and returns.
+An end-to-end **MySQL data analysis project** focused on understanding customer churn, customer behavior, purchasing patterns, payment preferences, satisfaction, complaints, and customer returns in an e-commerce environment.
 
 ---
 
 ## 📌 Project Overview
 
-Customer churn is a key challenge for e-commerce businesses. Understanding customer behavior and identifying patterns associated with churn can help businesses improve customer retention and customer experience.
+Customer churn is an important challenge for e-commerce businesses. Understanding customer behavior and identifying patterns associated with churn can help businesses improve customer retention and customer experience.
 
-This project uses SQL to **clean, transform, explore, and analyze** historical e-commerce customer data.
+This project uses **MySQL and SQL** to clean, transform, explore, and analyze historical e-commerce customer data.
 
-The analysis focuses on customer churn status, tenure, satisfaction, complaints, payment methods, order categories, coupon usage, purchasing behavior, warehouse-to-home distance, and customer returns.
+The analysis covers customer tenure, churn status, satisfaction scores, complaints, payment preferences, order categories, coupon usage, purchasing behavior, warehouse-to-home distance, and customer returns.
 
 ---
 
 ## 💼 Business Problem
 
-An e-commerce business wants to better understand its customer churn patterns and identify customer characteristics associated with churn.
+The project focuses on understanding customer churn patterns and identifying customer characteristics associated with customer attrition.
 
-The analysis aims to answer questions such as:
+The analysis investigates:
 
-- How many customers have churned?
-- What are the characteristics of churned customers?
-- How are complaints related to churn?
-- Which payment and order preferences are common among customers?
-- How does customer satisfaction vary among customers who complained?
-- How does warehouse-to-home distance relate to churn?
-- Which customer groups show notable purchasing behavior?
-- Which churned customers also have return and complaint activity?
+- Churned and active customers
+- Customer tenure and cashback
+- Customer complaints
+- Payment preferences
+- Preferred order categories
+- Customer satisfaction
+- Coupon usage
+- Purchasing behavior
+- Warehouse-to-home distance
+- Customer returns and refunds
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Analyze churned and active customers.
 - Identify customer behavior patterns.
 - Analyze customer tenure and cashback.
-- Examine the relationship between complaints and churn.
+- Examine complaints in relation to churn.
 - Analyze payment and order preferences.
-- Explore customer satisfaction patterns.
+- Explore customer satisfaction.
 - Analyze coupon usage and order behavior.
 - Segment customers based on warehouse-to-home distance.
 - Analyze customer return and refund information.
-- Generate insights that can support customer retention strategies.
+- Generate business insights from customer data.
 
 ---
 
@@ -56,27 +58,29 @@ The analysis aims to answer questions such as:
 
 ---
 
-## 📊 Dataset Overview
+## 📊 Dataset
 
-The dataset contains customer-level e-commerce information, including:
+The project uses the e-commerce customer churn dataset provided with the module-end assignment.
 
-| Category | Fields |
+The dataset contains customer information related to:
+
+| Category | Examples |
 |---|---|
 | Customer | Customer ID, Tenure, Gender, Marital Status |
 | Location | City Tier, Warehouse-to-Home Distance |
 | Engagement | Hours Spent on App, Number of Devices Registered |
-| Purchasing | Order Count, Preferred Order Category, Order Amount Hike |
+| Purchasing | Order Count, Preferred Order Category |
 | Payments | Preferred Payment Mode |
 | Customer Experience | Satisfaction Score, Complaints |
 | Offers | Coupon Used |
-| Returns | Return Date, Refund Amount |
+| Churn | Churn Status |
 | Value | Cashback Amount |
 
 ---
 
 ## 🧹 Data Cleaning
 
-SQL was used to prepare the dataset for analysis.
+SQL was used to prepare the customer data for analysis.
 
 ### Missing Value Treatment
 
@@ -97,12 +101,15 @@ Mode imputation was applied to:
 
 Records where:
 
+```text
 WarehouseToHome > 100
-
----
+```
 
 ## 👩‍💻 Author
 
 **Akshaya S**
 
-⭐ Thank you for visiting this project!
+B.Sc. Computer Science Graduate  
+Aspiring Data Analyst
+
+Thank you for visiting this project!
